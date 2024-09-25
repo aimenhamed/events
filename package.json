@@ -1,0 +1,19 @@
+{
+  "name": "events",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.1.1",
+    "@elysiajs/static": "^1.1.1",
+    "elysia": "^1.1.13",
+    "ioredis": "^5.4.1",
+    "pino": "^9.4.0"
+  }
+}
